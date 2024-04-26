@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background: rgb(167, 206, 223);
   }
   
   .container {
@@ -14,11 +15,13 @@ body {
   input[type="text"] {
     padding: 8px;
     margin-bottom: 10px;
+    border-radius: 6px;
   }
   
   button {
     padding: 8px 20px;
     background-color: #007bff;
+    border-radius: 6px;
     color: #fff;
     border: none;
     cursor: pointer;
