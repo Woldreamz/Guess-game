@@ -1,38 +1,54 @@
 body {
     font-family: "Rammetto One", sans-serif;
     background: rgb(167, 206, 223);
-  }
-  
+}
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 12px 30px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+button {
+  padding: 8px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: #5c5f62;
+}
+
+
+/* Media Query for screen responsiveness */
+@media screen and (max-width: 600px) {
   .container {
-    margin: 50px auto;
-    text-align: center;
+    max-width: 90%;
   }
-  
-  h1 {
-    color: #333;
+
+  .todo-input {
+    width: 60%;
   }
-  
-  input[type="text"] {
-    padding: 12px 30px;
-    margin-bottom: 10px;
-    border-radius: 6px;
+
+  .todo-button {
+    margin-left: 5px;
   }
-  
-  button {
-    padding: 8px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    border-radius: 6px;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  p {
-    color: #5c5f62;
-  }
+}
   
