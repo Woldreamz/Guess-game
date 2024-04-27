@@ -84,3 +84,4 @@ function updateHighScore() {
 function displayHighScore() {
   document.getElementById('highScore').innerText = highScore !== '-' ? highScore : '-';
 }
+
